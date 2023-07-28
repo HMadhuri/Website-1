@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- here we are linking css file with the html file-->
+    <link rel="stylesheet" href="style.css">
+    <title>Moffee - take a break</title>
+</head>
+<body>
+    <!-- for creating a navigation bar we are going to use a tag called nav -->
+    <nav class = "navbar">
+        <!-- ul is used for creating a list on which css items can be put
+        a is the achor tag which acts like a link
+    so when achor tag is clicked then it redirects to the home thing (page/navbar)-->
+        <ul class = "nav-list" >
+            <!-- we are going to divide this ara we are going to insert a logo
+            here we are writing alt = logo is when the picture is not loading for the user
+            it shows the word logo for them-->
+            <div class="logo"><img src="logo.jpg" alt ="logo" ></div>
+            <li> <a href="#Home"> Home </a></li>
+            <li> <a href="#About"> About </a></li>
+            <li> <a href="#Shop"> Shop </a></li>
+            <li> <a href="#Specials"> Specials </a></li>
+        </ul>
+        <!-- this is for the search box-->
+        <div class="rightNav">
+            <input type = "text" name="search" id="search">
+            <!-- we are creating a button with the class name btn-sm which is small button-->
+            <button class="btn btn-sm" style="background-color: black;">Search</button>
+
+        </div>
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main" style="
+                width: 614.5;
+                height: 550px;
+                ">
+            <div class="firstHalf">
+                <p class="text-big">MOFFEE CAFE </p>
+                <p class="text-ssmall">Moffee Cafe runs on love and laughter with the cups of strong coffee and good food. We are a small batch coffee roastery in Forum Mall, Hyderabad</p>
+                    <div class="buttons">
+                        <button class="btn">Services</button>
+                        <button class="btn">Join Us</button>
+                    </div>
+            </div>
+            <!--
+            <div class="secondHalf">
+                <img src="bulby.jpg" alt="bulb image" style="
+                width:170px;
+                ">
+            </div>
+        -->
+        </div>
+
+    </section>
+    
+    <section class="secRight">
+        <div class="paras">
+        <p class="sectionTag text-big">WHY CHOOSE MOFFEE!!</p>
+        <p class="sectionSubTag text-small">At our coffee show we choose quality over anything else..so no doubt we use the best coffee beans, chocolate and also your cafe is known for its best costumer services. We have our branches across Hyderabad in Hafeezpet, Chintal and Banjara Hills.
+            Do visit our cafes to experience the real taste coffee.At our coffeehouse we love chocolate and our handcrafted unique hot chocolate recipies which will make you fall in love.
+        Your coffee just won't have notes of spices, cocoa, caramel or blackberry - it will have notes of expertise, impact and love. What are you waiting for?? Visit our nearest store now.</p>
+               </div>
+               <div class="thumbnail">
+                <img src="wire.jpeg" alt="lights image" class="imgFluid" style="
+                width:270px;
+                ">
+               </div>
+               
+    </section>
+    <section class="secLeft">
+        <div class="paras">
+        <p class="sectionTag text-big">BEST BEANS IN THE TOWN!!</p>
+        <p class="sectionSubTag text-small">Our varieties have been selected from the finest we can offer.We here use fresh roasted beans extracted using market's leading equipment produced by our trained and qualified baristas. We regularly evaluate our beans to make sure they always stay and smell the best. Our cold brewed iced coffee is the best you can find in our city.
+            Do check out our menu for more interesting items. We also take personalised coffee orders.</p>
+               </div>
+               <div class="thumbnail">
+                <img src="coffee2.jpg" alt="lights image" class="imgFluid" style="
+                width:270px;
+                ">
+               </div>
+               
+    </section>
+    <section class="secRight">
+        <div class="paras">
+        <p class="sectionTag text-big">OUR SPECIALITY!!</p>
+        <p class="sectionSubTag text-small">There is something that we can offer to everyone who visits our cafe may it be the creamy chocolate coffee which will reduce your office tension or tastiest hot chocolate which will make your day
+            We love to offer each of our customer a special coffee experience at every vist. Our coffee blend is available as retail sale as whole beans, or ground to order. You can always contact us for orders or suggestions, do fill the form below and help us grow.</p>
+               </div>
+               <div class="thumbnail">
+                <img src="coffee1.jpg" alt="lights image" class="imgFluid" style="
+                width:270px;
+                ">
+               </div>
+               
+    </section>
+    <section class="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form" style="
+        margin-left: 460px;
+        margin-top:20px;
+        ">
+            <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+            <br>
+            <input type="text" name="phno" id="phno" placeholder="Enter your phone number"><br>
+            <br>
+            <input type="text" name="email" id="email" placeholder="Enter your mail ID"><br>
+            <br>
+            <button class="btn btn-dark">Submit</button>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            copyright &copy; 2027 www.Moffee.com - All rights reserved
+        </p>
+    </footer>
+</body>
+</html>
